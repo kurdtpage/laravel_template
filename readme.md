@@ -1,4 +1,5 @@
 # laravel_template
+Based off https://www.youtube.com/watch?v=ubfxi21M1vQ
 Files changed from initial install:
 - *`/routes/web.php`* - defines get/post routes (similar to an API)
 - *`/app/Message.php`* - supposed to model the message, but Laravel is smart :)
