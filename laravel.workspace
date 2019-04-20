@@ -4,5 +4,5 @@
   "ide": "CodeLite",
   "type": "php"
  },
- "projects": ["trailfinder2.phprj"]
+ "projects": ["laravel.phprj"]
 }
