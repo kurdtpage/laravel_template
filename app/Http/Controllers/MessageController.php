@@ -14,8 +14,8 @@ class MessageController extends Controller
 		$message->save();
 		return redirect('/');
 	}
-	public function view($id){
-		$message = Message::findOrFail($id);
+	public function view($messageId, $messageClass = Message){
+		$message = $messageClass::findOrFail($messageId);
 		//echo $message->title;
 		return view('message', [
 			'message' => $message
