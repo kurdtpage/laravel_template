@@ -8,6 +8,7 @@ Files changed from initial install:
 - *`/resources/views/message.blade.php`* - shows an individual message
 - *`/app/Http/Controllers/HomeController.php`* - controls what happens on the *`home.blade.php`* page
 - *`/app/Http/Controllers/MessageController.php`* - controls what happens on the *`message.blade.php`* page (create message or view message)
+- *`/database/migrations/2019_04_19_105156_create_messages_table.php`* - creates the `messages` table in the database
 
 # Usage
 ```
@@ -18,6 +19,7 @@ cp .env.example .env
 ```
 Modify the *`.env`* file to suit your needs
 ```
+composer update
 php artisan serve
 ```
 Go to http://localhost:8000
